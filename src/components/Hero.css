@@ -1,0 +1,87 @@
+.hero {
+  position: relative;
+  min-height: 90vh;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #f6e7dc 0%, #FED2C1 35%, #f6f3f1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 90px;
+}
+
+.hero-content {
+  text-align: center;
+  z-index: 5;
+}
+
+.hero-content h1 {
+  font-size: 82px;
+  margin-top: 300px;
+  line-height: 0.95;
+  font-weight: 300;
+  color: #111;
+  letter-spacing: -3px;
+}
+
+.hero-content .bold {
+  font-weight: 800;
+}
+
+.hero-content .orange {
+  color: #f05a22;
+  font-weight: 800;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #555;
+}
+
+.card {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  background: #ebddd8;
+  padding: -4px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+  width: 370px;
+  display: block;
+  border-radius: 24px;
+}
+
+/* left back card */
+/* .card1 {
+  left: 30px;
+  bottom: 55px;
+  transform: rotate(-10deg);
+  z-index: 1;
+  width: 380px;
+} */
+
+/* left front card */
+.card2 {
+background: #ebddd8;
+ transform: scale(1.05);
+}
+
+/* right card */
+.card3 {
+  right: 150px;
+  bottom: 475px;
+  transform: rotate(10deg);
+  z-index: 1;
+  width: 380px;
+}
+
+.card2:hover, .card3:hover {
+  transform: scale(1.05) rotate(0deg);
+  transition: all 0.3s ease;
+}
+.img1 {
+  width: 150px;
+}

@@ -1,18 +1,12 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import HomePage from './pages/HomePage'
-import PostsPage from './pages/PostsPage'
-import PostDetails from './pages/PostDetails'
-
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/posts" element={<PostsPage />} />
-        <Route path="/posts/:id" element={<PostDetails />} />
-      </Routes>
-    </BrowserRouter>
-  )
+import HomePage from "./pages/HomePage"; // make sure the path is correct
+import "./index.css"; // if you have any global CSS
+function App() {
+  return ( <>
+<div className="App">
+  <HomePage />
+</div>
+    </>
+  );
 }
+
+export default App;
