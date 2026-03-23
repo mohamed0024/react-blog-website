@@ -14,6 +14,7 @@ export default function App() {
         <Route path="/posts" element={<PostsPage />} />
         <Route path="/posts/:id" element={<PostDetails />} />
       </Routes>
+
     </BrowserRouter>
   )
 }

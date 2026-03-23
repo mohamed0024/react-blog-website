@@ -1,4 +1,7 @@
- export default function HomePage() { return null }
+ import Footer from '../components/Footer'
+ export default function HomePage() { return (
+ <Footer/> 
+ )}
 
 
 
