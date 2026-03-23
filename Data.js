@@ -1,75 +1,98 @@
-
 const newsData = [
   {
     id: 1,
-    title: "Algérie Verte 2026 : Objectif 7 millions d'arbres",
+    title: "Algérie Verte 2026 : Objectif 7 millions d'arbres d'ici la fin de l'année",
     date: "23 Mars 2026",
-    description: "Le programme national de reboisement franchit une étape décisive ce mois-ci avec une accélération des plantations sur tout le territoire.",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb773b09"
+    description: "Le programme national de reboisement franchit une étape décisive ce mois-ci.",
+    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb773b09",
+    detailImage: "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e",
+    content: "Le vaste plan 'Barrage Vert' a été officiellement relancé avec l'appui technique des conservations des forêts... [Texte long ici]"
   },
   {
     id: 2,
-    title: "Mondiaux d'athlétisme : L'Algérie en tête en Pologne",
+    title: "Mondiaux d'athlétisme : L'Algérie survole les débats en salle à Torun",
     date: "22 Mars 2026",
-    description: "Aux Championnats du monde en salle à Torun, les athlètes algériens signent des performances historiques, plaçant le pays au sommet du tableau africain.",
-    image: "https://images.unsplash.com/photo-1461891263870-bd617b3a04bc"
+    description: "Les athlètes algériens signent des performances historiques en Pologne.",
+    image: "https://images.unsplash.com/photo-1461891263870-bd617b3a04bc",
+    detailImage: "https://images.unsplash.com/photo-1526676023131-d352424236a2",
+    content: "Une soirée magique pour le sport national. Aux Championnats du monde d'athlétisme en salle... [Texte long ici]"
   },
   {
     id: 3,
-    title: "Importations : Nouvelles mesures pour les opérateurs",
+    title: "Régulation des Importations : Le ministère du Commerce durcit le ton",
     date: "23 Mars 2026",
-    description: "Le ministère du Commerce rappelle l'échéance du 30 avril pour le dépôt des dossiers sur la plateforme numérique dédiée au suivi des flux.",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d"
+    description: "Le ministère rappelle l'échéance cruciale du 30 avril pour la plateforme numérique.",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+    detailImage: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    content: "Dans un communiqué pressant, le ministère du Commerce a rappelé que la plateforme 'Algérie-Export' est l'unique canal... [Texte long ici]"
   },
   {
     id: 4,
-    title: "Mégaprojet Algéro-Saoudien : 5,4 milliards de dollars validés",
+    title: "Énergie : Validation du projet Sonatrach et MEA pour 5,4 milliards $",
     date: "23 Mars 2026",
-    description: "Le Journal Officiel confirme l'accord entre Sonatrach et le groupe MEA pour un investissement massif dans le secteur de l'énergie.",
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23"
+    description: "Le Journal Officiel confirme un investissement massif pour le paysage industriel.",
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23",
+    detailImage: "https://images.unsplash.com/photo-1535391821627-5e509e667c79",
+    content: "L'Algérie passe à la vitesse supérieure dans sa stratégie pétrochimique... [Texte long ici]"
   },
   {
     id: 5,
-    title: "Sécurité Routière : Baisse des accidents en zone urbaine",
+    title: "Sécurité Routière : Les nouveaux radars intelligents font baisser la mortalité",
     date: "21 Mars 2026",
-    description: "La DGSN rapporte une légère amélioration des chiffres de la sécurité routière grâce au renforcement des contrôles durant le mois de mars.",
-    image: "https://images.unsplash.com/photo-1506310113109-d294bc5b7205"
+    description: "La DGSN rapporte une amélioration significative des chiffres en zone urbaine.",
+    image: "https://images.unsplash.com/photo-1506310113109-d294bc5b7205",
+    detailImage: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d",
+    content: "La lutte contre l'insécurité routière commence à porter ses fruits concrètement... [Texte long ici]"
   },
   {
     id: 6,
-    title: "Tizi Ouzou : 36,5 milliards DA pour l'eau potable",
+    title: "Stress Hydrique : Tizi Ouzou lance son plan de secours de 36 milliards DA",
     date: "20 Mars 2026",
-    description: "Un plan d'investissement massif est lancé pour sécuriser l'alimentation en eau de la wilaya et rénover les conduites principales.",
-    image: "https://images.unsplash.com/photo-1538300342682-cf57afb97285"
+    description: "Un investissement massif pour sécuriser l'alimentation en eau potable.",
+    image: "https://images.unsplash.com/photo-1538300342682-cf57afb97285",
+    detailImage: "https://images.unsplash.com/photo-1541544741938-0af808871cc0",
+    content: "Face aux défis posés par le changement climatique, la wilaya de Tizi Ouzou a débloqué... [Texte long ici]"
   },
   {
     id: 7,
-    title: "Start-up : 2026, l'année du décollage économique",
+    title: "Économie Numérique : L'Algérie franchit la barre des 2 500 Start-ups",
     date: "19 Mars 2026",
-    description: "Les nouveaux incubateurs universitaires commencent à porter leurs fruits avec une augmentation record du nombre de labels 'Start-up' accordés.",
-    image: "https://images.unsplash.com/photo-1519389428555-9811883f6f3b"
+    description: "L'année 2026 marque le véritable décollage de l'écosystème technologique.",
+    image: "https://images.unsplash.com/photo-1519389428555-9811883f6f3b",
+    detailImage: "https://images.unsplash.com/photo-1556761175-b413da4baf72",
+    content: "Le paysage économique algérien est en pleine mutation... [Texte long ici]"
   },
   {
     id: 8,
-    title: "Patrimoine : Vers le classement du Tassili",
+    title: "Archéologie : Nouvelles découvertes rupestres dans le massif du Tassili",
     date: "18 Mars 2026",
-    description: "La commission nationale des biens culturels examine le classement de nouveaux sites historiques majeurs dans la région du Tassili.",
-    image: "https://images.unsplash.com/photo-1543831614-727c62252a9e"
+    description: "Une équipe d'experts documente des gravures inédites au Sahara.",
+    image: "https://images.unsplash.com/photo-1543831614-727c62252a9e",
+    detailImage: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    content: "Une découverte majeure vient d'être annoncée dans le parc national du Tassili n'Ajjer... [Texte long ici]"
   },
   {
     id: 9,
-    title: "Ligue 1 Mobilis : Duel au sommet pour l'USMA",
+    title: "Football / Ligue 1 : L'USMA se prépare pour un choc décisif au sommet",
     date: "17 Mars 2026",
-    description: "Le championnat national entre dans sa phase décisive avec des matchs à haute tension pour les places qualificatives en compétitions africaines.",
-    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2"
+    description: "Le championnat national entre dans sa phase finale avec un match à haute tension.",
+    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2",
+    detailImage: "https://images.unsplash.com/photo-1574629810360-7efbbe195018",
+    content: "La pression monte dans la capitale. À quelques jours du grand choc... [Texte long ici]"
   },
   {
     id: 10,
-    title: "Ramadan 2026 : Mobilisation pour les restaurants Rahma",
+    title: "Ramadan 2026 : Un élan de solidarité exemplaire à travers le pays",
     date: "16 Mars 2026",
-    description: "Plus de 60 restaurants caritatifs sont déployés à travers la wilaya de Tizi Ouzou pour assurer des repas aux plus démunis et aux voyageurs.",
-    image: "https://images.unsplash.com/photo-1591341740034-45308643f873"
+    description: "Plus de 60 restaurants Rahma mobilisés pour offrir des repas.",
+    image: "https://images.unsplash.com/photo-1591341740034-45308643f873",
+    detailImage: "https://images.unsplash.com/photo-1542332213-31f87348057f",
+    content: "Le mois sacré de Ramadan 2026 est marqué par une mobilisation citoyenne sans précédent... [Texte long ici]"
   }
 ];
 
 export default newsData;
+
+   
+ 
+   
