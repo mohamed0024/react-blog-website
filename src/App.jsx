@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import PostsPage from './pages/PostsPage'
 import PostDetails from './pages/PostDetails'
+import Favorites from './pages/Favorite'
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
         <Route path="/posts" element={<PostsPage />} />
         <Route path="/posts/:id" element={<PostDetails />} />
       </Routes>
-
+      <Favorites />
     </BrowserRouter>
   )
 }
