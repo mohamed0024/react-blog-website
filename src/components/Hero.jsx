@@ -22,7 +22,38 @@ Stay <span className="bold">Tuned</span> & check all <br />
   <div className="card card3" display style={{width : "380px", height:"600px",transform: "rotate(10deg)", marginBottom: "-830px", marginRight: "-50px", marginLeft: "700px"}}>
     <img className="img3" display style={{ width: "280px", marginTop: "30px", marginLeft: "40px",  }} src="/src/assets/img3.png" alt="" />
   </div>
-
+<div>
+<button
+  style={{
+    color: "black",
+    background: "transparent",
+    border: "none",
+    fontSize: "50px",
+    fontWeight: "600",
+    cursor: "pointer",
+    marginTop: "30px",
+    position: "relative",
+    paddingBottom: "5px",
+    width: "120px",
+    height: "160px",
+    top: "608px",
+    right: "340px",
+    gap: "10px",
+  }}
+  onClick={() => {
+    document
+      .getElementById("home-section")
+      .scrollIntoView({ behavior: "smooth" });
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.letterSpacing = "1px";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.letterSpacing = "0px";
+  }}
+>
+  show more ↓
+</button></div>
   
 </section>
 );
