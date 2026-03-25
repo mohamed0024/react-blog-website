@@ -17,7 +17,7 @@ function HomePage() {
         <p style={{ fontSize: "45px" }}>Trending News</p>
       </div>
 
-      {/* 🔴 BIG CARD (Oscar news) */}
+      {/* Oscar news */}
       <div
         style={{
           display: "flex",
@@ -75,7 +75,7 @@ function HomePage() {
         </div>
       </div>
 
-      {/* 🟡 ROW (3 cards only) */}
+      {/* 3 cards only */}
      <div
   style={{
     display: "flex",
