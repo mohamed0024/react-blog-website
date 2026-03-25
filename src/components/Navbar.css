@@ -23,7 +23,7 @@ nav{
 }
 .searchField{
     width:100%;
-    width: 515px;
+    width: 400px;
     min-width: 200px;
     padding: 10px 15px;
     display: flex;

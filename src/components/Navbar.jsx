@@ -8,7 +8,7 @@ const links =[
 ]
 export default function Navbar() { return (
     <nav>
-        <img className="logo"src={logo} alt="logo" />
+        <img className="logo"src={logo} alt="NewsUP logo" />
         <div className="links">
             {links.map((item) =>(
                 <Link key={item.name} to={item.path} className="nav-link">
