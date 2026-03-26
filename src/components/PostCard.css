@@ -1,0 +1,100 @@
+ .post-card {
+    background-color: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+    height: 100%;
+}
+.post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(255, 87, 51, 0.15);
+}
+.post-card-img-wrapper {
+    padding: 12px;
+}
+.post-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.post-card-body {
+    padding: 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.post-card-date {
+    color: var(--primary);
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.post-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.post-card-preview {
+    color: var(--text-muted);
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.post-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    margin-top: auto;
+}
+.read-article {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-decoration: underline;
+    text-decoration-color: var(--text-muted);
+    text-underline-offset: 3px;
+    transition: color 0.2s;
+}
+.read-article:hover {
+    color: var(--dark);
+    text-decoration-color: var(--dark);
+}
+.arrow {
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+.source-icon {
+    width: 24px;
+    height: 24px;
+    background-color: var(--dark);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+/* root vars to use */
+:root {
+    --primary: #FF5733;
+    --dark: #1a1a1a;
+    --white: #ffffff;
+    --gray: #f5f5f5;
+    --light-gray:#F9F9F9;
+    --text-muted: #888888;
+    --border: #e0e0e0;
+    --card-dark: #1a1a1a;
+} 
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+/* the base of  */
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark);
+
+}
+/* links  */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* images */
+img {
+    max-width: 100%;
+    display: block;
+}
+ul{
+    list-style: none;
+}
